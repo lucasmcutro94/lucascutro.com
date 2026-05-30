@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lucas Cutro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="#hero" class="brand">Lucas&nbsp;Cutro</a>
+    <nav class="nav">
+      <a href="#about">About me</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact" class="nav-cta">Contact me</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow"><span class="dot"></span> Available for opportunities &middot; Sydney, Australia</p>
+        <h1>Driving growth in <span class="accent">B2B&nbsp;SaaS</span><br />through people and partnerships.</h1>
+        <p class="tagline">I'm Lucas Cutro, a Business Development professional with 10+ years of experience helping companies scale across global markets.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+          <a href="#experience" class="btn btn-ghost">View experience</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-band">
+      <div class="stats-inner">
+        <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Years of experience</span></div>
+        <div class="stat"><span class="stat-num">111%</span><span class="stat-label">FY23 targets achieved</span></div>
+        <div class="stat"><span class="stat-num">3</span><span class="stat-label">Global markets</span></div>
+        <div class="stat"><span class="stat-num">3</span><span class="stat-label">Languages spoken</span></div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-head">
+        <span class="section-tag">About</span>
+        <h2>A people-first approach to business development</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a Business Development professional with over a decade of experience helping
+            companies grow across B2B SaaS. Currently based in Sydney, I work at Intuit, where
+            I focus on building lasting relationships and driving measurable results.
+          </p>
+          <p>
+            I've lived and worked across Sydney, Buenos Aires, and Chicago. I'm passionate about
+            sales, technology, and continuous learning &mdash; most recently completing Harvard
+            Business School Online's AI Essentials certification.
+          </p>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <h3>Sales &amp; Growth</h3>
+            <p>Consistently exceeding targets and unlocking new revenue across markets.</p>
+          </div>
+          <div class="card">
+            <h3>Relationships</h3>
+            <p>Building trusted, long-term partnerships with clients and teams.</p>
+          </div>
+          <div class="card">
+            <h3>Global mindset</h3>
+            <p>Experience across Australia, the US, and Latin America in three languages.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-alt">
+      <div class="section-head">
+        <span class="section-tag">Experience</span>
+        <h2>Career journey</h2>
+      </div>
+      <ul class="timeline">
+        <li>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="role">Business Development</div>
+            <div class="company">Intuit &middot; Sydney, Australia</div>
+            <p>Sales Achiever FY23 &mdash; achieved 111% of yearly performance targets.</p>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="role">Business Development &amp; Sales</div>
+            <div class="company">Buenos Aires &amp; Chicago</div>
+            <p>Over 10 years building and growing business across multiple international markets.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="contact-card">
+        <div class="contact-copy">
+          <span class="section-tag light">Contact</span>
+          <h2>Let's work together</h2>
+          <p>I'm always happy to talk about business, sales, and growth. Reach out and let's connect.</p>
+        </div>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/lucascutro/" target="_blank" rel="noopener" class="btn btn-primary">LinkedIn</a>
+          <a href="mailto:hello@example.com" class="btn btn-ghost">Email me</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Lucas Cutro &middot; Sydney, Australia</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
